@@ -12,7 +12,10 @@
                 $(function () {
                        $("#tabs").tabs();
                        $("#tabs-om-1").tabs();
-                                
+                        $("#tabs-om-2").tabs();
+                        $("#tabs-om-3").tabs();
+                        $("#tabs-om-4").tabs();
+
                         $( "#btnRun" ).click(function() 
                         {
                                 $.ajax({url: "https://api.nationalize.io/?name="+encodeURIComponent($( "#navn" ).val()), success: function(result)
@@ -79,7 +82,7 @@
                                         <li><a href="#sp-5">5</a></li>
                                         <li><a href="#sp-6">6</a></li>
                                         <li><a href="#sp-7">7</a></li>
-                                        <li><a href="#sp-8">8</a></li>
+
                                 </ul>
 
                          <div id="sp-1">
@@ -103,12 +106,58 @@
 
                        </div>
 
+                                <div id="sp-4">
+                                        <p>Spørgsmål 4</p>
+                                 4. Hvilke typer busser findes der i en computer:<br/>
+                                        Svar:<br/>
+                                        Controlbus <br/>
+                                        Adressebus <br/>
+                                        Databus <br/>
+
+                                </div>
+                       <div id="sp-5">
+                               <P> Spørgmål 5</P>
+                               5. Computer Netværk hvad er forskellen på IB og MAC:<br>
+                               Svar:<br>
+                               IP er dynamisk og MAC er lokalt <br>
+
+
+                       </div>
+                                <div id="sp-6">
+                                        <p>Spørgsmål 6</p>
+                                6. Hvilke typer kategorier findes der for en PSU, og hvad betyder det:<br/>
+                                        Svar:<br/>
+                                Nyttevirkning, forskellige lednings evne af metaller (ædel), forskellig watt styrke.<br/>
+                                </div>
+
+                       <div id="sp-7">
+                               <p> Spørgsmål 7</p>
+                               7. Hvad er forskellen på RAM og Harddisk:<br>
+                               Svar: <br>
+                               Ram (random access memory) lager hurtigt i hukommelsen og bliver slettet hvis computeren genstarter. Harddisk kan man gemme filer på. <br>
+
+                       </div>
                 </div>
                 </div>
 
                 <div id="om-2">
-                        <p>Spørgsmål og svar</p>
+                        <div id="tabs-om-2">
+
+                        <ul>
+                                <li><a href="#sp-1">1</a></li>
+                                <li><a href="#sp-2">2</a></li>
+                                <li><a href="#sp-3">3</a></li>
+                                <li><a href="#sp-4">4</a></li>
+                                <li><a href="#sp-5">5</a></li>
+                                <li><a href="#sp-6">6</a></li>
+                                <li><a href="#sp-7">7</a></li>
+
+                        </ul>
+
+
                 </div>
+                </div>
+
                 <div id="om-3">
                         <p>Spørgsmål og svar</p>
                 </div>
