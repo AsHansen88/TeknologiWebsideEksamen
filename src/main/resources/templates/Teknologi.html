@@ -178,6 +178,25 @@
                         <p>Spørgsmål 2</p>
                         2. Forklar hvordan man regner mellem binær og decimal! <br>
                         Svar: <br>
+                        Binære tal består kun af cifrene 0 og 1 og kan omregnes til alle tal i 10 talsystemet. <br>
+                        De binære tal læses fra højre mod venstre. Værdierne fordobles for hvert ciffer vi bevæger os mod venstre i det binære talsystem.<br>
+                        dvs. færste værdi har 1 næste 2 derefter 4,8,16 osv.<br>
+                        Det er kun 1 tallerne der har en værdig <br>
+                        omregning: 10011<br>
+                        <br>
+                        Cifre: 1,2,3,4,5<br>
+                        værdi: 1,2,4,5,16<br>
+                        binær: 1,1,0,0,1<br>
+                        <br>
+                        Værdierne af binære tal: 1,2,16<br>
+                        herefter lægger vi dem sammen<br>
+                        1+2+16=19<br>
+                        <br>
+                        Dvs. Det binære tal 10011 svarer til 19 i 10 talsystemet.<br/>
+
+
+
+
 
                 </div>
 
@@ -185,12 +204,34 @@
                                         <p>Spørgsmål 3</p>
                                 3. Forklar hvordan man regner mellem binær og hexa decimal! <br>
                                         Svar:<br>
+                                Det hexadeciamle talsystem har værdierne: 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f<br>
+                                14 skrevet som binær form kaldes: 0+4+2+0 Det giver: 1110(lille 2 tal) hvilket svarer til e(lille 16)<br>
+                                Husk e har værdien 14 fordi e er plads 14 på talrækken øverst<br>
+                                herefter deles tallet: 101100110101 op i 4 dele: 1011 0011 0101<br>
+                                Omregnes til base 16 hexadecimal:<br>
+                                1011 --> B<br>
+                                0011 --> 3<br>
+                                0101 --> 5<br>
+                                Hexadecimal: B35<br>
+
+
+
+
+
                                 </div>
 
                                 <div id="sp-4-om2">
                                         <p>Spørgsmål 4</p>
                                         4. Forklar hvad vi skal bruge et MySQL DBMS til?  <br>
                                         Svar: <br>
+                                        Databaser bruges til at gemme data på en “smart” måde:<br>
+                                        •Store mængder data kan gemmes samme sted<br>
+                                        •Nemt at hente/redigere data, også af flere brugere på samme tid<br>
+                                        •Organiserbar data på forskellige måder: søgning og sortering<br>
+                                        •Kan sikre datasikkerhed (sikre adgange) og dataintergritet (sikre korrekt data)<br>
+                                        •Let at flytte database fra computer/Server til anden<br/>
+
+
                                 </div>
 
                                 <div id="sp-5-om2">
@@ -208,6 +249,22 @@
                                         <p>Spørgsmål 6</p>
                                         6. Beskriv hvordan man opretter et MySQL DBMS på Azure og hvad vi kan bruge sådan et til!  <br>
                                         Svar: <br>
+                                        Man logger på Azure med kea login<br>
+                                        Man skriver ''Azure Database for MYSQL flexible servers<br>
+                                        herefter klikker man på ''create''<br>
+                                        Udylder formularen<br>
+                                        ”Ressource group” med ”KEA 2022”<br>
+                                        ”Compute+ storage”<br>
+                                        ”Server name”<br>
+                                        ”North Europe”.<br>
+                                        ”Work Load”. sæt den til ”For developmentor hobby projects”.<br>
+                                        giv username og password<br>
+                                        KLik herefter på: ”+ Add0.0.0.0 -255.255.255.255”<br>
+                                        Klik på create<br>
+                                        <br>
+                                        Hvad kan vi bruge det til?<br>
+                                        NÅr vores database ligger på azure ligger den nettet, og dermed kan vi lettere tilgå denne fra andre devices.<br>
+                                        Hele pointen er at vi kan have en ekstern server / database vi kan tilgå over nettet istedet for, at have den fysisk derhjemme eller på skolen.<br/>
                                 </div>
 
                 </div>
